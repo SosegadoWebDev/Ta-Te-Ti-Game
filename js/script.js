@@ -156,7 +156,7 @@ $(document).ready(function () {
                 alert("Ganó el segundo Jugador!")
                 $(".square").off()
             })
-        } if ($(".square:eq(0)").hasClass("0") && $(".square:eq(1)").hasClass("o") && $(".square:eq(2)").hasClass("o")) {
+        } if ($(".square:eq(0)").hasClass("o") && $(".square:eq(1)").hasClass("o") && $(".square:eq(2)").hasClass("o")) {
             $(".square:eq(3)").removeClass("x")
             $(".square:eq(3)").removeClass("o")
             $(".square:eq(4)").removeClass("x")
